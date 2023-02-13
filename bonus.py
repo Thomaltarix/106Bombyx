@@ -20,4 +20,6 @@ def main():
     pyplot.show()
     file.close()
 
+
+    
 main();
