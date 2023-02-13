@@ -8,8 +8,8 @@ def main():
     data_list_x = []
     data_list_y = []
     for data in file.readlines():
-        data_list_x.append(int(data.split(" ")[0]))
-        data_list_y.append(int(data.split(" ")[1]))
+        data_list_x.append(float(data.split(" ")[0]))
+        data_list_y.append(float(data.split(" ")[1]))
 
     print(data_list_x)
     print(data_list_y)
@@ -20,6 +20,4 @@ def main():
     pyplot.show()
     file.close()
 
-
-    
 main();
